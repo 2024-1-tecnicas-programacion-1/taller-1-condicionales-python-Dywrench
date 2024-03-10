@@ -7,7 +7,7 @@ def evaluar(dividendo, divisor):
         respuesta = "La división es exacta. \n" \
                     "Cociente: " + str(cociente) + "\n" \
                     "Residuo: " + str(residuo)
-    elif residuo != 0:  # Corregido: Se agrega la condición para elif
+    elif residuo != 0: 
         respuesta = "La división no es exacta. \n" \
                     "Cociente: " + str(cociente) + "\n" \
                     "Residuo: " + str(residuo)
